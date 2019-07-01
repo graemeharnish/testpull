@@ -1,6 +1,6 @@
 version: 3
 groups:
-  pullapprove:
+  code:
     conditions:
     - "files.include('platform/Test.file')"
     reviewers:
