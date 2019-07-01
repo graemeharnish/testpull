@@ -7,4 +7,4 @@ groups:
       users:
       - truemotion-github-mobile-admin
     reviews:
-      required: 1
+      required: 2 
