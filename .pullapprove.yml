@@ -2,9 +2,9 @@ version: 3
 groups:
   truemobile: 
     conditions:
-    - "files.include('platform/Test.file')"
-  reviewers:
-    users:
-    - truemotion-github-mobile-admin
-  reviews:
-    required: 2 
+    - "'Test.file' in files"
+    reviewers:
+      users:
+      - truemotion-github-mobile-admin
+    reviews:
+      required: 2 
